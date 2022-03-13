@@ -1,6 +1,26 @@
 {
-  "name": "my-blog",
+  "name": "marag.io",
+  "description": "My personal website.",
   "version": "0.1.0",
+  "author": {
+    "name": "Garam Ann",
+    "email": "maragriver@gmail.com",
+    "url": "https://marag.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomarag/marag.io.git"
+  },
+  "files": [
+    "components",
+    "data",
+    "icons",
+    "pages",
+    "static",
+    "styles",
+    "utils"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,15 +29,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^2.0.0",
     "next": "12.1.0",
+    "prettier": "^2.5.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/node": "17.0.21",
     "@types/react": "17.0.40",
+    "autoprefixer": "^10.4.2",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-styled-components": "^2.0.6",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23",
     "typescript": "4.6.2"
   }
 }
